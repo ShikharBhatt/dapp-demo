@@ -1,0 +1,24 @@
+{
+  "name": "bcoe-dapp-demo",
+  "version": "1.0.0",
+  "description": "Demo app for innovation lab session",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sede-x/bcoe-dapp-demo.git"
+  },
+  "author": "Shell PLC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sede-x/bcoe-dapp-demo/issues"
+  },
+  "homepage": "https://github.com/sede-x/bcoe-dapp-demo#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "dotenv": "^16.0.3",
+    "hardhat": "^2.12.2"
+  }
+}
