@@ -1,0 +1,16 @@
+{
+  "name": "demo-dapp",
+  "version": "1.0.0",
+  "description": "Dapp to capture the flag",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "ethers": "^5.6.8",
+    "serve": "^13.0.0"
+  },
+  "scripts": {
+    "build": "bash ./src/build.sh",
+    "start": "npm run build && serve ./build/html"
+  },
+  "author": "Shikhar Bhatt",
+  "license": "MIT"
+}
